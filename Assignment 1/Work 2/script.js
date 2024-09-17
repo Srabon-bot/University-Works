@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const number = prompt('Enter a number to generate its multiplication table:');
         
         if (number === null) {
-            return; // User cancelled the prompt
+            return;
         }
 
         if (isNaN(number) || number === '') {
