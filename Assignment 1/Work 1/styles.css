@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    text-align: center;
+    margin-top: 50px;
+    color: #333; /* Dark gray text */
+}
+
+.container {
+    background-color: #fff; /* White container background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
+    border: 1px solid #ccc; /* Light gray border */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Dark gray heading */
+}
+
+button {
+    background-color: #333; /* Dark gray button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555; /* Lighter gray on hover */
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333; /* Dark gray text */
+}
