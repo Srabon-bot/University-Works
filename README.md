@@ -63,6 +63,7 @@ A virtual pet web game inspired by Tamagotchi, built with PHP, MySQL, and JavaSc
 
 ## 🎨 Demo
 
+https://youtu.be/juSz4KppGog
 
 ## 👥 Team Members
 
