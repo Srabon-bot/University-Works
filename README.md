@@ -4,8 +4,6 @@
 
 A virtual pet web game inspired by Tamagotchi, built with PHP, MySQL, and JavaScript. Take care of your virtual cat, learn interesting cat facts, and try to keep your pet happy and healthy!
 
-![Web Cat Normal](assets/cat-normal.png)
-![Web Cat Dead State](assets/cat-dead.png)
 
 ## 🎮 Features
 
@@ -27,7 +25,7 @@ A virtual pet web game inspired by Tamagotchi, built with PHP, MySQL, and JavaSc
 1. **Download the Tamagotchi file from this repo**
 2. **place it in wamp64/www**
 3. **Ensure WAMP server is running**
-4. **Access the game at http://localhost/Tamagotchi/**
+4. **Access the game at http://localhost/Tamagotchi/login.html**
 
 # Pet Care Game
 
