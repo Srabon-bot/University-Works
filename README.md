@@ -28,25 +28,8 @@ A virtual pet web game inspired by Tamagotchi, built with PHP, MySQL, and JavaSc
 4. **go to http://localhost/phpmyadmin**
 5. **log in with default setup username : root, password ia nothing keep it blank**
 6. **now make a new database named tamagotchi**
-7. **go to sql and paste the sql code give below and press go**
-8. - sql:
--- Drop the existing table if needed
-DROP TABLE IF EXISTS game_data;
-DROP TABLE IF EXISTS users;
-
--- Create updated users table
-CREATE TABLE users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(50) NOT NULL UNIQUE,
-    email VARCHAR(100) NOT NULL,
-    password VARCHAR(255) NOT NULL,
-    health INT DEFAULT 100,
-    hunger INT DEFAULT 50,
-    happiness INT DEFAULT 50,
-    energy INT DEFAULT 50,
-    last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-);
-9. **Access the game at http://localhost/Tamagotchi/login.html**
+7. **go to sql and paste the sql code give in the file as txt folder and press go**
+8.**Access the game at http://localhost/Tamagotchi/login.html**
 
 # Pet Care Game
 
