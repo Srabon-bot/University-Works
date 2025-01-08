@@ -1,20 +1,16 @@
-// At the top of script.js
 
-// Game state variables
 let hunger = 50;
 let happiness = 50;
 let energy = 50;
 let factHistory = [];
 let isDead = false;
 
-// DOM elements
 const tamagotchi = document.getElementById("tamagotchi");
 const deadImage = document.getElementById("dead-image");
 const factHistoryList = document.getElementById("fact-history");
 const actionButtons = document.querySelectorAll(".actions button:not([onclick*='Game'])");
 const gameButtons = document.querySelectorAll(".actions button[onclick*='Game']");
 
-// Get username from localStorage
 const username = localStorage.getItem('username');
 if (!username) {
     window.location.href = 'login.html';
@@ -133,20 +129,20 @@ function loadGame() {
                 return;
             }
             
-            // Update game state with loaded data
+            
             hunger = parseInt(data.hunger) || 50;
             happiness = parseInt(data.happiness) || 50;
             energy = parseInt(data.energy) || 50;
             
-            // Reset death state
+        
             isDead = false;
             deadImage.style.display = "none";
             tamagotchi.className = "";
             
-            // Enable buttons
+            
             actionButtons.forEach(button => button.disabled = false);
             
-            // Update display
+            
             updateStats();
             alert('Game loaded successfully!');
         })
@@ -182,10 +178,9 @@ function triggerDeath() {
     }, 2000);
 }
 
-// Initialize game
 updateStats();
 
-// Remove the inline onclick attributes from buttons and add event listeners
+
 document.querySelectorAll('.actions button').forEach(button => {
     const action = button.textContent.toLowerCase();
     switch(action) {
