@@ -18,7 +18,7 @@ This guide explains how to configure **RIP (Routing Information Protocol)** step
 ## 📹 Tutorial Video
 
 🎬 [Click here to watch the RIP Routing Tutorial on Cisco Packet Tracer](#)  
-> ![image](https://github.com/user-attachments/assets/9fe590a5-4ee7-44c2-9fd9-0cc17d8ef2a1)
+> https://youtu.be/FD3cRS-Ca5M
 
 
 ---
