@@ -25,6 +25,9 @@ The window title must be your **full name**, and if the user presses the **first
 
 ---
 
+## What it does
+- Creates cyan colored window with named after my name "srabon"
+- Closes window when "S" or "s" is pressed on keybord
 
 ## 🛠 Requirements
 
