@@ -21,13 +21,6 @@ The window title must be your **full name**, and if the user presses the **first
 
 ---
 
-## 🖥️ Output Screenshot
-
-📸 Screenshot proof that the program runs successfully on my PC with VS Code terminal visible:
-
-![Screenshot]()
-
----
 
 ## 🛠 Requirements
 
