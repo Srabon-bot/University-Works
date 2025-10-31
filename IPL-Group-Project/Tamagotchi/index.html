@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagotchi Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="console-container">
+        <h1>Web Cat</h1>
+       
+        <div class="main-content">
+        
+            <div class="history-box">
+                <h2>Fact History</h2>
+                <ul id="fact-history">
+                
+                </ul>
+            </div>
+
+            
+            <div class="game-area">
+                <div class="stats">
+                    <p>Hunger: <span id="hunger">50</span></p>
+                    <p>Happiness: <span id="happiness">50</span></p>
+                    <p>Energy: <span id="energy">50</span></p>
+                </div>
+
+                
+                <div class="actions">
+                    <button onclick="feedPet()">Feed</button>
+                    <button onclick="playWithPet()">Play</button>
+                    <button onclick="putToSleep()">Sleep</button>
+                    <button onclick="tellFact()">Tell a Fact</button>
+                    <button onclick="saveGame()">Save Game</button>
+                    <button onclick="loadGame()">Load Game</button>
+                    <button onclick="resetGame()">New Game</button>
+                </div>
+
+                
+                <div class="pet-box">
+                    <div id="tamagotchi"></div>
+                    <img id="dead-image" src="dead-image.jpg" alt="Dead Tamagotchi" style="display: none;">
+                </div>
+            </div>
+        </div>
+
+        <div class="facts-box">
+            <h2>Current Fact:</h2>
+            <p id="current-fact">No fact yet!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
